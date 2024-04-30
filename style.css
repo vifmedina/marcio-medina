@@ -5,6 +5,7 @@
 :root {
     --cor0: #FFFFFF;
     --cor1: #00695C;
+    --cor2: #00695da2;
     --font: 'Roboto';
 }
 
@@ -135,4 +136,41 @@ body {
     border-radius: 100% 0px 0px 0px;
 }
 
-/* Deixando o site responsivo*/
+/* Adicionandos os Aparelhos 
+.aparelhos {
+    margin: 480px 90px;
+}
+
+.info {
+    width: 800px;
+    margin-top: 60px;
+    background-color: #777777;
+    border-radius: 20px;
+}
+
+li {
+    background-color: #777777;
+    width: 800px;
+    font-family: var(--font);
+    color: black;
+    font-size: 1.3em;
+    border-radius: 20px;
+}
+
+.banner {
+    position: absolute;
+    background-color: var(--cor1);
+    width: 700px;
+    height: 600px;
+    right: 0px;
+    bottom: -770px;
+    border-radius: 30px 200px 30px 200px;
+}
+
+.maquina {
+    position: absolute;
+    background: none;
+    right: 180px;
+    bottom: -1000px;
+}
+*/
