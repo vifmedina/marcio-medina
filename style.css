@@ -13,6 +13,17 @@
     background-color: var(--cor0);
 }
 
+/* Customizando a barra de rolagem */
+::-webkit-scrollbar {
+    width: 10px; 
+    background: transparent; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--cor1); 
+    border-radius: 15px;
+}
+
 #logo {
     padding: 45px 90px;
 }
@@ -32,8 +43,7 @@
 }
 
 #menu > a:hover {
-    text-decoration: underline;
-    font-weight: 400;
+    font-weight: 500;
     color: var(--cor1);
 }
 
@@ -44,7 +54,6 @@ header {
 }
 
 body {
-    overflow-y: hidden;
     overflow-x: hidden;
 }
 
@@ -81,6 +90,7 @@ body {
     font-size: 1.3em;
     color: black;
     font-weight: 400;
+    text-align: left;
 }
 
 #contato {
@@ -97,6 +107,11 @@ body {
     font-weight: 700;
     font-size: 1.5em;
     text-align: center;
+    transition: 0.5s;
+}
+
+#contato > a:hover {
+    border-radius: 5px;
 }
 
 .container {
@@ -106,16 +121,18 @@ body {
 .marcio {
     position: absolute;
     right: 110px;
-    bottom: -270px;
+    bottom: -265px;
     background: none;
 }
 
 #fundo {
     position: absolute;
     background-color: var(--cor1);
-    border-radius: 50%;
-    width: 1200px;
-    height: 1200px;
-    bottom: -600px;
-    right: -600px;
+    width: 600px;
+    height: 600px;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 100% 0px 0px 0px;
 }
+
+/* Deixando o site responsivo*/
